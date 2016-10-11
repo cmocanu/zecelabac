@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home-rsses on Zece la bac</title>
-    <link>http://replace-this-with-your-hugo-site.com/home/index.xml</link>
+    <link>https://cmocanu.github.io/zecelabac/home/index.xml</link>
     <description>Recent content in Home-rsses on Zece la bac</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Oct 2016 21:06:54 +0300</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/home/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cmocanu.github.io/zecelabac/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Home</title>
-      <link>http://replace-this-with-your-hugo-site.com/home/despre/</link>
+      <link>https://cmocanu.github.io/zecelabac/home/despre/</link>
       <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/home/despre/</guid>
+      <guid>https://cmocanu.github.io/zecelabac/home/despre/</guid>
       <description>
 
 &lt;h1 id=&#34;ce-este-zece-la-bac&#34;&gt;Ce este Zece la bac?&lt;/h1&gt;
@@ -37,29 +37,29 @@
     
     <item>
       <title>probleme_rezolvate</title>
-      <link>http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate/</link>
+      <link>https://cmocanu.github.io/zecelabac/home/probleme_rezolvate/</link>
       <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate/</guid>
+      <guid>https://cmocanu.github.io/zecelabac/home/probleme_rezolvate/</guid>
       <description>
 
 &lt;h1 id=&#34;probleme-rezolvate&#34;&gt;Probleme rezolvate&lt;/h1&gt;
 
 &lt;h2 id=&#34;calcul-si-demonstratii-simple&#34;&gt;Calcul si demonstratii simple&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema1/&#34;&gt;$(1 - i)^{24} \in {\rm I\!R}$&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cmocanu.github.io/zecelabac/post/problema1/&#34;&gt;$(1 - i)^{24} \in {\rm I\!R}$&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;ecuatii-si-inecuatii&#34;&gt;Ecuatii si inecuatii&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema2/&#34;&gt;Ecuatie simpla de gradul doi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cmocanu.github.io/zecelabac/post/problema2/&#34;&gt;Ecuatie simpla de gradul doi&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;functii&#34;&gt;Functii&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema3/&#34;&gt;Inversa lui $f(x) = e^x + 1$&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cmocanu.github.io/zecelabac/post/problema3/&#34;&gt;Inversa lui $f(x) = e^x + 1$&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;probabilitati&#34;&gt;Probabilitati&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema4/&#34;&gt;$\overline{ab}$ sa nu aiba aceeasi cifra de doua ori&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cmocanu.github.io/zecelabac/post/problema4/&#34;&gt;$\overline{ab}$ sa nu aiba aceeasi cifra de doua ori&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
