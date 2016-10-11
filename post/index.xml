@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Zece la bac</title>
+    <link>http://replace-this-with-your-hugo-site.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Zece la bac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Oct 2016 21:06:54 +0300</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Variante M1 2009, varianta 2, sub1, problema 1</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/problema1/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/problema1/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se arate ca numarul $(1-i)^{24} \in {\rm I\!R}$.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;Pare o problema destul de simpla. Putem pur si simplu sa calculam numarul, 24 nu e o putere asa mare. Calculam $x^2, x^4, x^8, x^{16}$ si apoi $x^{24} = x^{16} * x^8$. Totusi, e posibil sa existe o solutie mai usoara.&lt;/p&gt;
+
+&lt;h2 id=&#34;metoda-1&#34;&gt;Metoda 1&lt;/h2&gt;
+
+&lt;p&gt;Incercam sa calculam numarul &amp;ldquo;muncitoreste&amp;rdquo;. Pentru usurinta in scris, notam $x = (1-i)$, deci trebuie sa gasim $x^{24}$.
+$$x^{2} = (1-i) * (1-i) = 1 - i - i + i^{2} = 1 -2i -1 = -2i$$
+$$x^{4} = x^{2} * x^{2} = -2i * -2i = 4i^{2} = -4$$
+$$x^{8} = x^{4} * x{4} = -4 * -4 = 16$$
+$$x^{16} = x^{8} * x^{8} = 16 * 16 = 256$$
+$$x^{24} = x^{16} * x^{8} = 16 * 256 = 4096 \in {\rm I\!R}$$
+Am gasit ca $x^{24} = 1024$, care e evident numar real, deci am terminat.&lt;/p&gt;
+
+&lt;h2 id=&#34;metoda-2&#34;&gt;Metoda 2&lt;/h2&gt;
+
+&lt;p&gt;Putem observa din calculul $x^4$ de mai sus ca este egal cu $-4$. Asadar,
+$$x^{24} = (x^{4})^6 = (-4)^{6} = 16^{3} = 256 * 16 = 4096 \in {\rm I\!R}$$
+Sau:
+$$x^{24} = {x^2}^{12} = {-2i}^{12} = (-2)^{12} * i^{12} = 4096 * 1 = 4096 \in {\rm I\!R}$$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 2, sub1, problema 2</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/problema2/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/problema2/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se rezolve in multimea numerelor reale ecuatia: $$ \frac{3x-1}{x+1} + \frac{x+1}{2x-1} = 3 $$&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;O ecuatie de gradul doi banala, e o problema exclusiv de calcul. O aducem la forma canonica $ax^2 + bx + c = 0$ si rezolvam.&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;$$ \frac{3x-1}{x+1} + \frac{x+1}{2x-1} = 3 $$&lt;/p&gt;
+
+&lt;p&gt;Trecem primul termen in partea dreapta cu semn schimbat&lt;/p&gt;
+
+&lt;p&gt;$$ \frac{x+1}{2x-1} = 3 - \frac{3x-1}{x+1} $$&lt;/p&gt;
+
+&lt;p&gt;Amplificam $3$ cu $x+1$&lt;/p&gt;
+
+&lt;p&gt;$$ \frac{x+1}{2x-1} = \frac{3x + 3}{x+1} - \frac{3x-1}{x+1}$$&lt;/p&gt;
+
+&lt;p&gt;Calculam suma in partea dreapta&lt;/p&gt;
+
+&lt;p&gt;$$ \frac{x+1}{2x-1} = \frac{3x + 3 -3x +1}{x+1}$$
+$$ \frac{x+1}{2x-1} = \frac{4}{x+1}$$&lt;/p&gt;
+
+&lt;p&gt;Produsul mezilor e egal cu produsul extremilor&lt;/p&gt;
+
+&lt;p&gt;$$(x+1)^{2} = 4 * (2x - 1)$$
+$$x^2 + 2x + 1 = 8x - 4$$&lt;/p&gt;
+
+&lt;p&gt;Trecem toti termenii in partea stanga (schimbam semnul cand trecem din dreapta in stanga)&lt;/p&gt;
+
+&lt;p&gt;$$x^2 + 2x + 1 - 8x + 4 = 0$$
+$$x^2 - 6x + 5 = 0$$&lt;/p&gt;
+
+&lt;p&gt;Acum ecuatia este in forma canonica. Rezolvam dupa metoda cunoscuta:&lt;/p&gt;
+
+&lt;p&gt;$$\Delta = b^2 - 4ac = (-6 * -6) - (4 * 1 * 5) = 36 - 20 = 16 $$
+$$ x_1 = \frac{-b + \sqrt{\Delta}}{2a} =  \frac{6 + 4}{2} = 5$$
+$$ x_1 = \frac{-b - \sqrt{\Delta}}{2a} =  \frac{6 - 4}{2} = 1$$&lt;/p&gt;
+
+&lt;p&gt;Asadar, multimea solutiilor este ${1, 5}$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 2, sub1, problema 3</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/problema3/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/problema3/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se determine inversa functiei bijective $\ f \colon {\rm  I\!R} \to (1, \infty), \ f(x) = e^x + 1$.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;A gasi inversa unei functii inseamna, practic, a gasi x in functie de y (initial avand y in functie de x), unde y = f(x). De ce?&lt;/p&gt;
+
+&lt;p&gt;O functie reprezinta o relatie intre abscisa si ordonata, intre niste valori dintr-o multime si alte valori din alta multime. Putem scrie o functie $f(x) = 2x$ si sub forma $y = 2x$, unde $y$ reprezinta valoarea functiei $f$ in punctul $x$.&lt;/p&gt;
+
+&lt;p&gt;Dar putem privi acest $y = 2x$ si ca pe o ecuatie cu doua necuoscute. Pratic, poti sa calculezi un $y$ daca &amp;ldquo;ti se da&amp;rdquo; un $x$, sau invers (!!). Acest invers e cuvantul cheie.&lt;/p&gt;
+
+&lt;p&gt;Sa luam un exemplu. Fie: $$f \colon {1, 2, 3} \to {1, 4, 9}$$&lt;/p&gt;
+
+&lt;p&gt;$$f(x) = x^2$$&lt;/p&gt;
+
+&lt;p&gt;Functia $f$ ne arata corespondenta dintre domeniul de definitie ${1, 2, 3}$ si multimea de valori ${1, 4, 9}$. Si anume pentru orice punct din domeniul de definitie, ne spune valoarea lui $f$ in acel punct. Inversa lui $f$ trebuie sa ne spuna in ce punct are $f$ o anumita valoare. Adica daca lui $f$ ii dai $2$ si iti da inapoi $4$, inversei ii dai $4$ si iti da inapoi $2$. Cu alte cuvinte, daca:&lt;/p&gt;
+
+&lt;p&gt;$$y = x^2$$&lt;/p&gt;
+
+&lt;p&gt;Pentru $x = 2, y = 4$, si pentru $y = 4, x = 2$. Acum ne punem problema: cat este, in general, x in functie de y? Raspunsul este sa consideram in ecuatia de mai sus pe y ca fiind cunoscut, si x necunoscut. Astfel:&lt;/p&gt;
+
+&lt;p&gt;$$y = x^2$$
+$$\sqrt{y} = \sqrt{x^2}$$
+$$\sqrt{y} = x$$&lt;/p&gt;
+
+&lt;p&gt;Si asta e functia inversa lui $f$. Scrisa altfel:&lt;/p&gt;
+
+&lt;p&gt;$$f^{-1}(x) = \sqrt{x}$$&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;Avand in vedere cele spuse mai sus, problema devine foarte simpla. In primul rand, o punem sub o forma mai frumoasa:&lt;/p&gt;
+
+&lt;p&gt;$$y = e^x + 1$$&lt;/p&gt;
+
+&lt;p&gt;Si vrem sa il gasim pe x:
+$$y - 1 = e^x$$
+$$ln(y - 1) = ln(e ^ x)$$
+$$ln(y - 1) = x$$&lt;/p&gt;
+
+&lt;p&gt;Asadar, solutia este:&lt;/p&gt;
+
+&lt;p&gt;$$f^{-1}(x) = ln(x - 1)$$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 2, sub1, problema 4</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/problema4/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/problema4/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se determine probabilitatea ca, alegand un numar $\overline{ab}$ din multimea numerelor naturale de doua cifre, sa avem $a \neq b$.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;Pentru a rezvola problema trebuie sa numaram numarul de cazuri posibile si numarul de cazuri favorabile. Deoarece numarul de cazuri favorabile este destul de mare, putem numara de asemenea numarul de cazuri nefavorabile ($cazuri \ favorabile = cazuri \ posibile - cazuri \  nefavorabile$).&lt;/p&gt;
+
+&lt;p&gt;Pentru a numara cazurile posibile, trebuie sa stim cate numere sunt in multimea ${10, 11, 12 \ &amp;hellip; \ 97, 98, 99}$. Pe prima pozitie ($a$) putem avea $1-9$, si pe a doua ($b$) $0-9$ (evident un numar nu poate incepe cu $0$).&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;Numarul de cazuri posibile e numarul de numere naturale de doua cifre. Avem:&lt;/p&gt;
+
+&lt;p&gt;$$a \in {1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 9 \ cifre$$
+$$b \in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 10 \ cifre$$&lt;/p&gt;
+
+&lt;p&gt;Deci numarul de cazuri posibile este:&lt;/p&gt;
+
+&lt;p&gt;$$cazuri \ posibile = 9 * 10 = 90$$&lt;/p&gt;
+
+&lt;p&gt;Conform cerintei, un caz este nefavorabil daca a = b, asadar multimea cazurilor nefavorabile are 9 elemente:&lt;/p&gt;
+
+&lt;p&gt;$${11, 22, 33, 44, 55, 66, 77, 88, 99}$$&lt;/p&gt;
+
+&lt;p&gt;Deci numarul de cazuri favorabile este $$90 - 9 = 81$$&lt;/p&gt;
+
+&lt;p&gt;Raspunsul final este:&lt;/p&gt;
+
+&lt;p&gt;$$\frac{cazuri \ favorabile}{cazuri \ posibile} = 81 / 90 = &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt; = 0.9$$&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

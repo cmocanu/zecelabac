@@ -1,0 +1,79 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head> 
+		<script type="text/javascript" src="/js/script.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+
+	<body>
+		<div id="leftbar">
+			<h1 id="title">Zece la bac</h1>
+
+			<nav>
+				<ul id="navbar">
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Despre noi</a></li>
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Lectii</a></li>					
+					<li><a href="http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate">Probleme rezolvate</a></li>
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Formule</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="rightbar">
+		<br>
+			<div id="content">
+
+
+
+
+<h2 id="enunt">Enunt</h2>
+
+<p>Sa se determine inversa functiei bijective $\ f \colon {\rm  I\!R} \to (1, \infty), \ f(x) = e^x + 1$.</p>
+
+<h2 id="abordare">Abordare</h2>
+
+<p>A gasi inversa unei functii inseamna, practic, a gasi x in functie de y (initial avand y in functie de x), unde y = f(x). De ce?</p>
+
+<p>O functie reprezinta o relatie intre abscisa si ordonata, intre niste valori dintr-o multime si alte valori din alta multime. Putem scrie o functie $f(x) = 2x$ si sub forma $y = 2x$, unde $y$ reprezinta valoarea functiei $f$ in punctul $x$.</p>
+
+<p>Dar putem privi acest $y = 2x$ si ca pe o ecuatie cu doua necuoscute. Pratic, poti sa calculezi un $y$ daca &ldquo;ti se da&rdquo; un $x$, sau invers (!!). Acest invers e cuvantul cheie.</p>
+
+<p>Sa luam un exemplu. Fie: $$f \colon {1, 2, 3} \to {1, 4, 9}$$</p>
+
+<p>$$f(x) = x^2$$</p>
+
+<p>Functia $f$ ne arata corespondenta dintre domeniul de definitie ${1, 2, 3}$ si multimea de valori ${1, 4, 9}$. Si anume pentru orice punct din domeniul de definitie, ne spune valoarea lui $f$ in acel punct. Inversa lui $f$ trebuie sa ne spuna in ce punct are $f$ o anumita valoare. Adica daca lui $f$ ii dai $2$ si iti da inapoi $4$, inversei ii dai $4$ si iti da inapoi $2$. Cu alte cuvinte, daca:</p>
+
+<p>$$y = x^2$$</p>
+
+<p>Pentru $x = 2, y = 4$, si pentru $y = 4, x = 2$. Acum ne punem problema: cat este, in general, x in functie de y? Raspunsul este sa consideram in ecuatia de mai sus pe y ca fiind cunoscut, si x necunoscut. Astfel:</p>
+
+<p>$$y = x^2$$
+$$\sqrt{y} = \sqrt{x^2}$$
+$$\sqrt{y} = x$$</p>
+
+<p>Si asta e functia inversa lui $f$. Scrisa altfel:</p>
+
+<p>$$f^{-1}(x) = \sqrt{x}$$</p>
+
+<h2 id="rezolvare">Rezolvare</h2>
+
+<p>Avand in vedere cele spuse mai sus, problema devine foarte simpla. In primul rand, o punem sub o forma mai frumoasa:</p>
+
+<p>$$y = e^x + 1$$</p>
+
+<p>Si vrem sa il gasim pe x:
+$$y - 1 = e^x$$
+$$ln(y - 1) = ln(e ^ x)$$
+$$ln(y - 1) = x$$</p>
+
+<p>Asadar, solutia este:</p>
+
+<p>$$f^{-1}(x) = ln(x - 1)$$</p>
+
+
+			</div>
+		</div>
+	</body>
+</html>
