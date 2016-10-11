@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home-rsses on Zece la bac</title>
+    <link>http://replace-this-with-your-hugo-site.com/home/index.xml</link>
+    <description>Recent content in Home-rsses on Zece la bac</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Oct 2016 21:06:54 +0300</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Home</title>
+      <link>http://replace-this-with-your-hugo-site.com/home/despre/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/home/despre/</guid>
+      <description>
+
+&lt;h1 id=&#34;ce-este-zece-la-bac&#34;&gt;Ce este Zece la bac?&lt;/h1&gt;
+
+&lt;p&gt;Zece la bac este un site care isi propune sa devina o resursa valoroasa in pregatirea pentru examenul de bacalaureat la matematica. Este o lipsa acuta de materiale educative de calitate in mediul online pentru invatamantul romanesc ceea ce face foarte dificil pentru elevii care au ramas in urma, fie din cauza unui profesor slab, fie din lipsa de interes, sa recupereze si sa promoveze bacul cu o nota buna. Consider bacul un examen simplu daca te pregatesti corespunzator, si cred ca multi din cei care nu reusesc sa promoveze nu o fac pentru ca sunt prosti sau lenesi, ci pur si simplu pentru ca nu au materialele si sprijinul necesar pregatirii pentru acest examen. Dupa parerea mea, cele mai mari obstacole ale invatarii din carti si culegeri sunt intelegerea conceptelor fundamentale (vectori, matrici, functii etc) care sunt prezentate prea rigid, prea teoretic, si &amp;ldquo;descoperirea&amp;rdquo; de moduri de rezolvare ale anumitor tipuri de probleme, explicate insuficient de clar in majoritatea cartilor. Aceste fapte reprezinta motivul principal pentru care un profesor bun este foarte important, si pentru care meditatiile la matematica sunt atat de comune.&lt;/p&gt;
+
+&lt;h2 id=&#34;cum&#34;&gt;Cum?&lt;/h2&gt;
+
+&lt;p&gt;Zece la bac este alcatuit din urmatoarele sectiuni:
+- Lectii este locul unde sunt explicate conceptele si metodele necesare rezolvarii problemelor. Aici putem invata, de exemplu, ce este o functie bijectiva, o permutare, binomul lui Newton, o matrice, teorema lui Lagrange etc.
+- Probleme rezolvate este locul unde gasim exemple de probleme rezolvate. Ne propunem sa avem explicatii clare, atat in cuvinte cat si matematice,  fara sa sarim peste pasi sau lucruri evidente.
+- Probleme propuse este locul unde putem gasi probleme pentru antrenament.
+- Formule este locul in care putem gasi toate formulele necesare rezolvarii problemelor de bac. Nu este o resursa de invatare, ci mai degraba de aducere aminte.&lt;/p&gt;
+
+&lt;h2 id=&#34;cine&#34;&gt;Cine?&lt;/h2&gt;
+
+&lt;p&gt;Siteul este facut de mine, Cristian Mocanu, student la Facultatea de Automatica si Calculatoare, Politehnica Bucuresti. Totusi, mi-ar fi foarte greu sa fac asta singur, asa ca incurajez orice fel de contributie din partea oricui, elevi, profesori sau pur si simplu pasionati de matematica. Continutul este sub o licenta Creative Commons, si siteul este open-source, asa ca nu pot sa cer bani pentru continut dintr-o data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>probleme_rezolvate</title>
+      <link>http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate/</guid>
+      <description>
+
+&lt;h1 id=&#34;probleme-rezolvate&#34;&gt;Probleme rezolvate&lt;/h1&gt;
+
+&lt;h2 id=&#34;calcul-si-demonstratii-simple&#34;&gt;Calcul si demonstratii simple&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema1/&#34;&gt;$(1 - i)^{24} \in {\rm I\!R}$&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ecuatii-si-inecuatii&#34;&gt;Ecuatii si inecuatii&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema2/&#34;&gt;Ecuatie simpla de gradul doi&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;functii&#34;&gt;Functii&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema3/&#34;&gt;Inversa lui $f(x) = e^x + 1$&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;probabilitati&#34;&gt;Probabilitati&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/post/problema4/&#34;&gt;$\overline{ab}$ sa nu aiba aceeasi cifra de doua ori&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

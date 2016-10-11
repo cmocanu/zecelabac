@@ -1,0 +1,65 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head> 
+		<script type="text/javascript" src="/js/script.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+	</head>
+
+	<body>
+		<div id="leftbar">
+			<h1 id="title">Zece la bac</h1>
+
+			<nav>
+				<ul id="navbar">
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Despre noi</a></li>
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Lectii</a></li>					
+					<li><a href="http://replace-this-with-your-hugo-site.com/home/probleme_rezolvate">Probleme rezolvate</a></li>
+					<li><a href="http://replace-this-with-your-hugo-site.com/index.html">Formule</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="rightbar">
+		<br>
+			<div id="content">
+
+
+
+
+<h2 id="enunt">Enunt</h2>
+
+<p>Sa se determine probabilitatea ca, alegand un numar $\overline{ab}$ din multimea numerelor naturale de doua cifre, sa avem $a \neq b$.</p>
+
+<h2 id="abordare">Abordare</h2>
+
+<p>Pentru a rezvola problema trebuie sa numaram numarul de cazuri posibile si numarul de cazuri favorabile. Deoarece numarul de cazuri favorabile este destul de mare, putem numara de asemenea numarul de cazuri nefavorabile ($cazuri \ favorabile = cazuri \ posibile - cazuri \  nefavorabile$).</p>
+
+<p>Pentru a numara cazurile posibile, trebuie sa stim cate numere sunt in multimea ${10, 11, 12 \ &hellip; \ 97, 98, 99}$. Pe prima pozitie ($a$) putem avea $1-9$, si pe a doua ($b$) $0-9$ (evident un numar nu poate incepe cu $0$).</p>
+
+<h2 id="rezolvare">Rezolvare</h2>
+
+<p>Numarul de cazuri posibile e numarul de numere naturale de doua cifre. Avem:</p>
+
+<p>$$a \in {1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 9 \ cifre$$
+$$b \in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 10 \ cifre$$</p>
+
+<p>Deci numarul de cazuri posibile este:</p>
+
+<p>$$cazuri \ posibile = 9 * 10 = 90$$</p>
+
+<p>Conform cerintei, un caz este nefavorabil daca a = b, asadar multimea cazurilor nefavorabile are 9 elemente:</p>
+
+<p>$${11, 22, 33, 44, 55, 66, 77, 88, 99}$$</p>
+
+<p>Deci numarul de cazuri favorabile este $$90 - 9 = 81$$</p>
+
+<p>Raspunsul final este:</p>
+
+<p>$$\frac{cazuri \ favorabile}{cazuri \ posibile} = 81 / 90 = <sup>9</sup>&frasl;<sub>10</sub> = 0.9$$</p>
+
+
+			</div>
+		</div>
+	</body>
+</html>
