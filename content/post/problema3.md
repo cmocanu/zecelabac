@@ -17,7 +17,7 @@ O functie reprezinta o relatie intre abscisa si ordonata, intre niste valori din
 
 Dar putem privi acest $y = 2x$ si ca pe o ecuatie cu doua necuoscute. Pratic, poti sa calculezi un $y$ daca "ti se da" un $x$, sau invers (!!). Acest invers e cuvantul cheie.
 
-Sa luam un exemplu. Fie: $$f \colon \{1, 2, 3\} \to \{1, 4, 9\}$$
+Sa luam un exemplu. Fie: $$f \colon \\{1, 2, 3\\} \to \\{1, 4, 9\\}$$
 
 $$f(x) = x^2$$
 

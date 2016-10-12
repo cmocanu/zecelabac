@@ -18,8 +18,8 @@ Pentru a numara cazurile posibile, trebuie sa stim cate numere sunt in multimea 
 
 Numarul de cazuri posibile e numarul de numere naturale de doua cifre. Avem:
 
-$$a \in \{1, 2, 3, 4, 5, 6, 7, 8, 9\} - \ 9 \ cifre$$
-$$b \in \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\} - \ 10 \ cifre$$
+$$a \in \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} - \ 9 \ cifre$$
+$$b \in \\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\\} - \ 10 \ cifre$$
 
 Deci numarul de cazuri posibile este:
 
@@ -27,7 +27,7 @@ $$cazuri \ posibile = 9 * 10 = 90$$
 
 Conform cerintei, un caz este nefavorabil daca a = b, asadar multimea cazurilor nefavorabile are 9 elemente:
 
-$$\{11, 22, 33, 44, 55, 66, 77, 88, 99\}$$
+$$\\{11, 22, 33, 44, 55, 66, 77, 88, 99\\}$$
 
 Deci numarul de cazuri favorabile este $$90 - 9 = 81$$
 
