@@ -33,4 +33,4 @@ Deci numarul de cazuri favorabile este $$90 - 9 = 81$$
 
 Raspunsul final este:
 
-$$\frac{cazuri \ favorabile}{cazuri \ posibile} = 81 / 90 = 9/10 = 0.9$$
+$$\frac{cazuri \ favorabile}{cazuri \ posibile} = \frac{81}{90} = \frac{9}{10} = 0.9$$

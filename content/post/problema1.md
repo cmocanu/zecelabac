@@ -20,7 +20,7 @@ $$x^{4} = x^{2} * x^{2} = -2i * -2i = 4i^{2} = -4$$
 $$x^{8} = x^{4} * x{4} = -4 * -4 = 16$$
 $$x^{16} = x^{8} * x^{8} = 16 * 16 = 256$$
 $$x^{24} = x^{16} * x^{8} = 16 * 256 = 4096 \in {\rm I\\!R}$$
-Am gasit ca $x^{24} = 1024$, care e evident numar real, deci am terminat.
+Am gasit ca $x^{24} = 4096$, care e evident numar real, deci am terminat.
 
 ## Metoda 2
 

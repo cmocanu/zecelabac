@@ -45,4 +45,4 @@ $$\Delta = b^2 - 4ac = (-6 * -6) - (4 * 1 * 5) = 36 - 20 = 16 $$
 $$ x_1 = \frac{-b + \sqrt{\Delta}}{2a} =  \frac{6 + 4}{2} = 5$$
 $$ x_1 = \frac{-b - \sqrt{\Delta}}{2a} =  \frac{6 - 4}{2} = 1$$ 
 
-Asadar, multimea solutiilor este $\{1, 5\}$
+Asadar, multimea solutiilor este $\\{1, 5\\}$
