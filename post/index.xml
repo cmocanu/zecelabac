@@ -117,7 +117,7 @@ $$ x_1 = \frac{-b - \sqrt{\Delta}}{2a} =  \frac{6 - 4}{2} = 1$$&lt;/p&gt;
 
 &lt;p&gt;Dar putem privi acest $y = 2x$ si ca pe o ecuatie cu doua necuoscute. Pratic, poti sa calculezi un $y$ daca &amp;ldquo;ti se da&amp;rdquo; un $x$, sau invers (!!). Acest invers e cuvantul cheie.&lt;/p&gt;
 
-&lt;p&gt;Sa luam un exemplu. Fie: $$f \colon {1, 2, 3} \to {1, 4, 9}$$&lt;/p&gt;
+&lt;p&gt;Sa luam un exemplu. Fie: $$f \colon \{1, 2, 3\} \to \{1, 4, 9\}$$&lt;/p&gt;
 
 &lt;p&gt;$$f(x) = x^2$$&lt;/p&gt;
 
@@ -174,8 +174,8 @@ $$ln(y - 1) = x$$&lt;/p&gt;
 
 &lt;p&gt;Numarul de cazuri posibile e numarul de numere naturale de doua cifre. Avem:&lt;/p&gt;
 
-&lt;p&gt;$$a \in {1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 9 \ cifre$$
-$$b \in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 10 \ cifre$$&lt;/p&gt;
+&lt;p&gt;$$a \in \{1, 2, 3, 4, 5, 6, 7, 8, 9\} - \ 9 \ cifre$$
+$$b \in \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\} - \ 10 \ cifre$$&lt;/p&gt;
 
 &lt;p&gt;Deci numarul de cazuri posibile este:&lt;/p&gt;
 
@@ -183,7 +183,7 @@ $$b \in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 10 \ cifre$$&lt;/p&gt;
 
 &lt;p&gt;Conform cerintei, un caz este nefavorabil daca a = b, asadar multimea cazurilor nefavorabile are 9 elemente:&lt;/p&gt;
 
-&lt;p&gt;$${11, 22, 33, 44, 55, 66, 77, 88, 99}$$&lt;/p&gt;
+&lt;p&gt;$$\{11, 22, 33, 44, 55, 66, 77, 88, 99\}$$&lt;/p&gt;
 
 &lt;p&gt;Deci numarul de cazuri favorabile este $$90 - 9 = 81$$&lt;/p&gt;
 
