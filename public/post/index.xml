@@ -33,7 +33,7 @@ $$x^{4} = x^{2} * x^{2} = -2i * -2i = 4i^{2} = -4$$
 $$x^{8} = x^{4} * x{4} = -4 * -4 = 16$$
 $$x^{16} = x^{8} * x^{8} = 16 * 16 = 256$$
 $$x^{24} = x^{16} * x^{8} = 16 * 256 = 4096 \in {\rm I\!R}$$
-Am gasit ca $x^{24} = 1024$, care e evident numar real, deci am terminat.&lt;/p&gt;
+Am gasit ca $x^{24} = 4096$, care e evident numar real, deci am terminat.&lt;/p&gt;
 
 &lt;h2 id=&#34;metoda-2&#34;&gt;Metoda 2&lt;/h2&gt;
 
@@ -93,7 +93,7 @@ $$x^2 - 6x + 5 = 0$$&lt;/p&gt;
 $$ x_1 = \frac{-b + \sqrt{\Delta}}{2a} =  \frac{6 + 4}{2} = 5$$
 $$ x_1 = \frac{-b - \sqrt{\Delta}}{2a} =  \frac{6 - 4}{2} = 1$$&lt;/p&gt;
 
-&lt;p&gt;Asadar, multimea solutiilor este ${1, 5}$&lt;/p&gt;
+&lt;p&gt;Asadar, multimea solutiilor este $\{1, 5\}$&lt;/p&gt;
 </description>
     </item>
     
@@ -189,7 +189,129 @@ $$b \in {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - \ 10 \ cifre$$&lt;/p&gt;
 
 &lt;p&gt;Raspunsul final este:&lt;/p&gt;
 
-&lt;p&gt;$$\frac{cazuri \ favorabile}{cazuri \ posibile} = 81 / 90 = &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt; = 0.9$$&lt;/p&gt;
+&lt;p&gt;$$\frac{cazuri \ favorabile}{cazuri \ posibile} = \frac{81}{90} = \frac{9}{10} = 0.9$$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 2, sub1, problema 5</title>
+      <link>https://cmocanu.github.io/zecelabac/post/problema5/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>https://cmocanu.github.io/zecelabac/post/problema5/</guid>
+      <description>
+
+&lt;h1 id=&#34;enunt&#34;&gt;Enunt&lt;/h1&gt;
+
+&lt;p&gt;Sa se determine $m \in {\rm I\!R}$, astfel incat distanta dintre punctele $A(2, m)$ si $B(m, -2)$ sa fie 4.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;Este o problema de geometrie analitica de baza. Trebuie sa aflam distanta de la $A$ la $B$, o facem egala cu $4$ si rezulta o ecuatie pe care o rezolvam.&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;$$d(A, B) = \sqrt{ (x_A - x_B)^2 + (y_A - y_B)^2 } $$&lt;/p&gt;
+
+&lt;p&gt;$$d(A, B) = \sqrt{ (2 - m)^2 + (m - (-2))^2 } $$&lt;/p&gt;
+
+&lt;p&gt;$$d(A, B) = \sqrt{ 4 - 4m + m^2 + m^2 + 4m + 4 } $$&lt;/p&gt;
+
+&lt;p&gt;$$d(A, B) = \sqrt{ 2m^2 + 8 } $$&lt;/p&gt;
+
+&lt;p&gt;Deoarece nu mai putem simplifica ce este sub radical, scriem ecuatia:&lt;/p&gt;
+
+&lt;p&gt;$$\sqrt{ 2m^2 + 8 } = 4$$&lt;/p&gt;
+
+&lt;p&gt;Ridicam la patrat in ambele parti:&lt;/p&gt;
+
+&lt;p&gt;$$ 2m^2 + 8 = 16 $$&lt;/p&gt;
+
+&lt;p&gt;$$ 2m^2 = 8 $$&lt;/p&gt;
+
+&lt;p&gt;Am gasit ecuatia finala, a carei solutie este triviala:&lt;/p&gt;
+
+&lt;p&gt;$$ m^2 = 4 $$&lt;/p&gt;
+
+&lt;p&gt;$$ m \in \{-2, +2\} $$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 3, sub1, problema 1</title>
+      <link>https://cmocanu.github.io/zecelabac/post/problema6/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>https://cmocanu.github.io/zecelabac/post/problema6/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se ordoneze crescator numerele $\sqrt{2}$, $\sqrt[3]{4}$, $\sqrt[4]{5}$.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;Evident, nu putem sa comparam numere cu puteri diferite (si radicalul e tot o putere). Trebuie sa le aducem la o forma similara (aceeasi putere).&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;Rescriem numerele, pentru a fi mai clar cu ce avem de lucrat.&lt;/p&gt;
+
+&lt;p&gt;$$ \sqrt{2} = 2^ { \frac{1}{2} } $$&lt;/p&gt;
+
+&lt;p&gt;$$ \sqrt[3]{4} = 4^ { \frac{1}{3} } $$&lt;/p&gt;
+
+&lt;p&gt;$$ \sqrt[4]{5} = 5^ { \frac{1}{4} } $$&lt;/p&gt;
+
+&lt;p&gt;Bineinteles, am dori sa scapam de aceste puteri incomode. Putem ridica la o putere toate numerele, si relatia dintre ele se pastreaza (daca $ 2 &amp;lt; 3 $, atunci si $ 2^x &amp;lt; 3^x $).&lt;/p&gt;
+
+&lt;p&gt;Observam ca numitorul comun al lui $2$ $3$ si $4$ e $12$, asa ca ridicam la puterea a  $12$a fiecare numar:&lt;/p&gt;
+
+&lt;p&gt;$$ (2^ { \frac{1}{2} })^{12} = 2^6 = 64 $$&lt;/p&gt;
+
+&lt;p&gt;$$ (4^ { \frac{1}{3} })^{12} = 4^4 = 256 $$&lt;/p&gt;
+
+&lt;p&gt;$$ (5^ { \frac{1}{4} })^{12} = 5^3 = 125 $$&lt;/p&gt;
+
+&lt;p&gt;Asadar, am aflat relatia dintre numerele ridicate la puterea a $12$a, si, implicit, si pe cea dintre numerele initiale:&lt;/p&gt;
+
+&lt;p&gt;$$ 64 &amp;lt; 125 &amp;lt; 256 =&amp;gt; \sqrt{2} &amp;lt; \sqrt[4]{5}  &amp;lt; \sqrt[3]{4} $$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variante M1 2009, varianta 3, sub1, problema 4</title>
+      <link>https://cmocanu.github.io/zecelabac/post/problema7/</link>
+      <pubDate>Mon, 10 Oct 2016 21:06:54 +0300</pubDate>
+      
+      <guid>https://cmocanu.github.io/zecelabac/post/problema7/</guid>
+      <description>
+
+&lt;h2 id=&#34;enunt&#34;&gt;Enunt&lt;/h2&gt;
+
+&lt;p&gt;Sa se determine probabilitatea ca, alegand un numar din multimea numerelor naturale de doua cifre, acesta sa fie patrat perfect.&lt;/p&gt;
+
+&lt;h2 id=&#34;abordare&#34;&gt;Abordare&lt;/h2&gt;
+
+&lt;p&gt;Pentru a rezvola problema trebuie sa numaram numarul de cazuri posibile si numarul de cazuri favorabile. Cazurile favorabile sunt patratele perfecte de doua cifre, si cazurile posibile sunt toate numere naturale de doua cifre.&lt;/p&gt;
+
+&lt;h2 id=&#34;rezolvare&#34;&gt;Rezolvare&lt;/h2&gt;
+
+&lt;p&gt;Numaram cazurile posibile:&lt;/p&gt;
+
+&lt;p&gt;De la $10$ pana la $13$ sunt $4$ numere ($10, 11, 12, 13$), adica $13 - 10 + 1$, deci de la $10$ pana la $99$ sunt $$cazuri \ posibile = 99 - 10 + 1 = 90$$&lt;/p&gt;
+
+&lt;p&gt;Numaram cazurile posibile:&lt;/p&gt;
+
+&lt;p&gt;Patratele perfecte de doua cifre sunt:&lt;/p&gt;
+
+&lt;p&gt;$$ \{16, 25, 36, 49, 64, 81 \} - 6 \ numere $$&lt;/p&gt;
+
+&lt;p&gt;$$ cazuri \ favorabile = 6 $$&lt;/p&gt;
+
+&lt;p&gt;Si rezultatul se obtine dupa formula cunoscuta:&lt;/p&gt;
+
+&lt;p&gt;$$ \frac{cazuri \ favorabile}{cazuri \ posibile} = \frac{6}{90} = \frac{1}{15} $$&lt;/p&gt;
 </description>
     </item>
     

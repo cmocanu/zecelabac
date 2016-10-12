@@ -1,0 +1,66 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head> 
+		<script type="text/javascript" src="https://cmocanu.github.io/zecelabac//js/script.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="https://cmocanu.github.io/zecelabac//css/style.css">
+	</head>
+
+	<body>
+		<div id="leftbar">
+			<h1 id="title">Zece la bac</h1>
+
+			<nav>
+				<ul id="navbar">
+					<li><a href="https://cmocanu.github.io/zecelabac//index.html">Despre noi</a></li>
+					<li><a href="https://cmocanu.github.io/zecelabac//index.html">Lectii</a></li>
+					<li><a href="https://cmocanu.github.io/zecelabac//home/probleme_rezolvate">Probleme rezolvate</a></li>
+					<li><a href="https://cmocanu.github.io/zecelabac//index.html">Formule</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="rightbar">
+		<br>
+			<div id="content">
+
+
+
+
+<h2 id="enunt">Enunt</h2>
+
+<p>Sa se ordoneze crescator numerele $\sqrt{2}$, $\sqrt[3]{4}$, $\sqrt[4]{5}$.</p>
+
+<h2 id="abordare">Abordare</h2>
+
+<p>Evident, nu putem sa comparam numere cu puteri diferite (si radicalul e tot o putere). Trebuie sa le aducem la o forma similara (aceeasi putere).</p>
+
+<h2 id="rezolvare">Rezolvare</h2>
+
+<p>Rescriem numerele, pentru a fi mai clar cu ce avem de lucrat.</p>
+
+<p>$$ \sqrt{2} = 2^ { \frac{1}{2} } $$</p>
+
+<p>$$ \sqrt[3]{4} = 4^ { \frac{1}{3} } $$</p>
+
+<p>$$ \sqrt[4]{5} = 5^ { \frac{1}{4} } $$</p>
+
+<p>Bineinteles, am dori sa scapam de aceste puteri incomode. Putem ridica la o putere toate numerele, si relatia dintre ele se pastreaza (daca $ 2 &lt; 3 $, atunci si $ 2^x &lt; 3^x $).</p>
+
+<p>Observam ca numitorul comun al lui $2$ $3$ si $4$ e $12$, asa ca ridicam la puterea a  $12$a fiecare numar:</p>
+
+<p>$$ (2^ { \frac{1}{2} })^{12} = 2^6 = 64 $$</p>
+
+<p>$$ (4^ { \frac{1}{3} })^{12} = 4^4 = 256 $$</p>
+
+<p>$$ (5^ { \frac{1}{4} })^{12} = 5^3 = 125 $$</p>
+
+<p>Asadar, am aflat relatia dintre numerele ridicate la puterea a $12$a, si, implicit, si pe cea dintre numerele initiale:</p>
+
+<p>$$ 64 &lt; 125 &lt; 256 =&gt; \sqrt{2} &lt; \sqrt[4]{5}  &lt; \sqrt[3]{4} $$</p>
+
+
+			</div>
+		</div>
+	</body>
+</html>
